@@ -19,3 +19,37 @@ print(f"Hola soy {nombre} y tengo {edad} anio \n")
 
 nombre, ciudad, genero = "Cheky", "Las Guaranas", "macho"
 print(f"Hola soy {nombre}, soy de {ciudad}, y soy un {genero} \n")
+
+# Tema 2.2: Ingresar valores de usuario
+
+nombre = input("Dame tu nombre: ")
+
+print(f"Hola {nombre}!")
+
+edad = int(input("Cual es tu edad: ")) # 25
+
+edad = edad + 5 # 30
+
+print(f"Tu edad en 5 anios seria {edad}")
+
+# Tarea 3: Pidele al usuario el nombre y el apellido y su edad
+nombre = input("Dame tu nombre: ")
+apellido = input("Dame tu apellido: ")
+print(f"Hola {nombre} {apellido}! \n")
+
+edad = input("Cuantos veranos han pasado despues de tu nacimiento? ")
+
+print(f"Ya veo. Tienes {edad} \n")
+
+print(f"Entonces, tu eres {nombre} {apellido} y tienes {edad}. Wao men. \n")
+
+
+# Tarea 4: Pidele al usuario 2 numeros y los sumes
+print("Klk, somo calculadora basica patron, deme 2 numero ahi.")
+
+# Int es para convertir cadenas de texto a numeros, brother 💀
+
+num1 = int(input("Primer valor: "))
+num2 = int(input("Segundo valor: "))
+
+print(f"Entonces tu resultado final es: {num1 + num2}")
